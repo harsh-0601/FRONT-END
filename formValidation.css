@@ -1,0 +1,68 @@
+html{
+    font-family: 'Tangerine', serif;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 4px 4px 4px #aaa;
+    background-color: #aaa;
+}
+
+h1{
+    background: linear-gradient(45deg,black,violet);
+    width: max-content;
+    color: white;
+    padding: 2%;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px black;
+    margin-top: 30px;
+}
+div input{
+    font-size: large;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin: auto 10%;
+    font-family: 'Tangerine', serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+#parent{
+    box-shadow: 0 0 10px black;
+    margin: 0% auto;
+    padding: 0 6% 3% 0;
+    background-color: #f8dcf8;
+    border-radius: 0 0 10px 10px ;
+    width: max-content;    
+}
+#btn{
+    margin: 20px 0 0 49%;
+    /* background: linear-gradient(45deg,black,violet); */
+    align-items: center;
+    font-family: 'Tangerine', serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 5%;
+}
+.is-form-valid{
+    border: 1px solid limegreen;
+    border-left: 15px solid limegreen;
+    box-shadow: 0 0 5px limegreen;
+}
+
+.is-form-invalid{
+    border: 1px solid orangered;
+    border-left: 15px solid orangered;
+    box-shadow: 0 0 5px orangered;
+}
+
+.text-sucess{
+    color: limegreen !important;
+    font-size: 14px;
+}
+
+.text-danger{
+    color:orangered !important;
+    font-size: 14px;
+}
