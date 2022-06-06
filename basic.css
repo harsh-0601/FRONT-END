@@ -1,0 +1,10 @@
+body h1{
+    background: linear-gradient(45deg, deeppink, blueviolet);
+    box-shadow: 0 0 50px black;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10% auto;    
+    width: 50%;
+}

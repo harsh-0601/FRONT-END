@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mathTable.css">
+    <title>Math Table</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+    <header>Maths Table</header>
+    <div id="parent">
+        <div>
+            <form>
+                <label for="Number">Enter A Number:  </label>
+                <input type="Number" id="reg-number" placeholder="Enter a Number">
+            </form>
+        </div>
+        <div>
+            <form action="">
+                <label for="multiplier">Select The Multiplier</label>
+                <input type="range" id="multiplier" min="1" max="10" value="1">
+            </form>
+        </div>
+    </div>
+    <div id="parent2">
+        <span class="num" id="number">1</span>
+        <span>x</span>
+        <span class="num" id="multi">1</span>
+        <span>=</span>
+        <span class="num" id="result">1</span>
+    </div>
+    <script src="mathTable.js"></script>
+</body>
+</html>

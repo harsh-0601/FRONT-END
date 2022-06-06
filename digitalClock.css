@@ -1,0 +1,44 @@
+html{
+    background-color: lightgray;
+}
+.parent{
+    display: flex;
+    box-shadow: 0 0 10px black;
+    margin: 1.5% 4% ;
+    justify-content: space-around;
+    background: linear-gradient(45deg, darkslategrey,teal );
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+.parent div{
+    box-shadow: 0 0 10px black;
+    padding: 1.5em;
+    margin: 2%;
+    font-size: larger;
+    text-align: center;
+    font-weight: bolder;  
+    overflow:hidden;  
+    border-radius: 10px;
+
+}
+#India{
+    background: linear-gradient(45deg, darkgreen, lightgreen);
+}
+#China{
+    background: linear-gradient(45deg, darkred, red);
+}
+#America{
+    background: linear-gradient(45deg, blueviolet, deeppink);
+}
+#title{
+    box-shadow: 0 0 10px steelblue;
+    width: fit-content;
+    padding: 2%;
+    font-size: 2em;
+    font-weight: bolder;
+    margin: auto;
+    border-radius:20px ;
+    background:linear-gradient(45deg, lightcoral,silver);
+
+}
