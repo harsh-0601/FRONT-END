@@ -11,21 +11,27 @@
 <body>
     <h1>Registration Form</h1>
     <div id="parent">
-        <form action=""><br>
+        <form action="" id="registration-form"><br>
         <div>
             <input type="text" id="username" placeholder="User-Name">
-        </div><br>
+        </div>
+        <div id="username-feedback" >sds</div>
+ <br>
         <div>
             <input type="email" name="email" id="email" placeholder="Email">
         </div><br>
+        <div id="email-feedback" ></div>
         <div>
             <input type="password" id="password" placeholder="Password">
         </div><br>
+        <div id="password-feedback" ></div>
         <div>
             <input type="password" id="c_password" placeholder="Confirm Password">
         </div>
+        <div id="c_password-feedback" ></div>
         <button type="submit" id="btn">Register</button>
     </form>
 </div>
+<script src="formValidation.js"></script>
 </body>
 </html>
