@@ -1,18 +1,62 @@
 //Form Validation
 let registrationForm=document.querySelector("#registration-form");
 registrationForm.addEventListener("submit", function(event){
-    event.preventDefault();
+    event.preventDefault(); //for preventing autosubmit
     validateForm();
 });
 
 let validateForm = () => {
     checkUserName();
+    checkEmail();
+    checkPassword();
+    confirmpassword();
 }
 
+//CHECK USERNAME
 let checkUserName = () =>{
     let inputEl=document.querySelector("#username");
-    let feedBackEl=document.querySelector("username-feedback");
+    let feedBackEl=document.querySelector("#username-feedback");
     let regExp = /^[a-zA-Z0-9]{4,10}$/;
+    if(regExp.test(inputEl.value)){
+        makeValid(inputEl,feedBackEl);
+    }
+    else{
+        makeInValid(inputEl,feedBackEl);
+    }
+};
+
+//CHECK EMAIL
+
+let checkEmail = () =>{
+    let inputEl=document.querySelector("#email");
+    let feedBackEl=document.querySelector("#email-feedback");
+    let regExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if(regExp.test(inputEl.value)){
+        makeValid(inputEl,feedBackEl);
+    }
+    else{
+        makeInValid(inputEl,feedBackEl);
+    }
+};
+
+//CHECK PASSWORD
+let checkPassword = () =>{
+    let inputEl=document.querySelector("#password");
+    let feedBackEl=document.querySelector("#password-feedback");
+    let regExp = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
+    if(regExp.test(inputEl.value)){
+        makeValid(inputEl,feedBackEl);
+    }
+    else{
+        makeInValid(inputEl,feedBackEl);
+    }
+};
+
+//Confirm PASSWORD
+let confirmpassword = () =>{
+    let inputEl=document.querySelector("#c_password");
+    let feedBackEl=document.querySelector("#c_password-feedback");
+    let regExp = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
     if(regExp.test(inputEl.value)){
         makeValid(inputEl,feedBackEl);
     }

@@ -22,7 +22,7 @@ div input{
     padding: 2%;
     border-radius: 10px;
     box-shadow: 0 0 10px black;
-    margin: auto 10%;
+    margin: 0% 10%;
     font-family: 'Tangerine', serif;
     font-size: 1.2em;
     font-weight: bolder;
@@ -59,10 +59,14 @@ div input{
 
 .text-sucess{
     color: limegreen !important;
-    font-size: 14px;
+    font-size: 0.9em;
+    margin: 5% 10% 0% 10%;
+    font-weight: bolder;
 }
 
 .text-danger{
     color:orangered !important;
-    font-size: 14px;
+    font-size: 0.9em;
+    margin: 5% 10% 0% 10%;
+    font-weight: bolder;
 }
