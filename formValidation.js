@@ -43,7 +43,8 @@ let checkEmail = () =>{
 let checkPassword = () =>{
     let inputEl=document.querySelector("#password");
     let feedBackEl=document.querySelector("#password-feedback");
-    let regExp = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
+    // let regExp = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{4,15}$/;
+    let regExp=/^[A-Za-z]\w{7,14}$/;
     if(regExp.test(inputEl.value)){
         makeValid(inputEl,feedBackEl);
     }
@@ -56,7 +57,8 @@ let checkPassword = () =>{
 let confirmpassword = () =>{
     let inputEl=document.querySelector("#c_password");
     let feedBackEl=document.querySelector("#c_password-feedback");
-    let regExp = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
+    // let regExp = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{4,15}$/;
+    let regExp=/^[A-Za-z]\w{7,14}$/;
     if(regExp.test(inputEl.value)){
         makeValid(inputEl,feedBackEl);
     }
