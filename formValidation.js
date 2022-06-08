@@ -10,7 +10,7 @@ let validateForm = () => {
     checkEmail();
     checkPassword();
     confirmpassword();
-}
+};
 
 //CHECK USERNAME
 let checkUserName = () =>{

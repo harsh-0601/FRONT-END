@@ -1,0 +1,56 @@
+<html>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="bootstrap.bundle.js" async></script>
+    <link rel="stylesheet" href="jsFormValidationByBootstrap.css">
+
+    <head>
+        <title>Register-form</title>
+    
+    </head> 
+    <body>
+        <nav class="navbar navbar-dark bg-dark md-3">
+            <a href="#" class="navbar-brand">Register-form</a>
+        </nav>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4 auto">
+                    <div class="card-header bg-secondary text-white text-center">
+                        <h3>Register Here</h3>
+                    </div>
+                    <div class="card-body bg-light-purple">
+                        <form id="registration-form">
+                            <div class="form-group mb-4">
+                                <input id="username" type="text" class="form-control " placeholder="User Name">
+                                <div id="username-feedback"></div>
+                            </div>
+                        
+                            <div class="form-group mb-4">
+                                <input id="email" type="email" class="form-control" placeholder="Email">
+                                <div id="email-feedback"></div>
+                            </div>
+                            
+                            <div class="form-group mb-4">
+                                <input id="password" type="password" class="form-control" placeholder="Password">
+                                <div id="password-feedback"></div>
+                            </div>
+                            <div class="form-group mb-4">
+                                <input id="c_password" type="password" class="form-control" placeholder=" Confirm Password">
+                                <div id="c_password-feedback"></div>
+                            </div>
+                        
+                            <div class="text-center">
+                                <input type="submit" value="Register" class="btn btn-secondary">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="formValidation.js"></script>
+        </body>
+        </html>
