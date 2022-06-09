@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="mdb.min.css"> -->
+    <link rel="stylesheet" href="listApp.css">
+    <title>LIST APP</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Task List App</a>
+    </nav>
+    <!-- For Adding Elements -->
+    <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header bg-warning text-white">
+                            <h3>Task List</h3>
+                        </div>
+                        <div class="card-body">
+                            <form id="task-form">
+                                <div class="form-group">
+                                    <input type="text" id="input-item" class="form-control" placeholder="Task Name">
+                                </div>
+                                <div>
+                                    <input type="submit" value="Add Task" class="btn btn-warning mt-2">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>    
+        <!-- Task List -->
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-8">
+                    <ol class="list-group" id="task-list">
+                        <li class="list-group-items list-group-item-action list-group-item-warning">
+                            <span class="font-weight-bold">${task}</span>
+                            <button class="btn btn-outline-white">
+                                <i class="fa fa-times-circle m-1" value="close"></i>
+                            </button>
+                            </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="bootstrap.bundle.js" async></script>
+        <script src="listApp.js"></script>
+    </body>
+    </html>
