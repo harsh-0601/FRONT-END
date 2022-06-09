@@ -9,6 +9,14 @@
 .btn{
     font-weight: bold;
 }
-li{
+.container{
+    position:relative;
+}
+.container li i { 
     display: flex;
+    
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: center;
+    position: ;
 }
