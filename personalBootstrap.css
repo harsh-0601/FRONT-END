@@ -1,0 +1,14 @@
+.bg-warning,.btn-warning{
+    background: linear-gradient(45deg,black, orange);
+}
+.bg-info{
+    background: linear-gradient(45deg,black, blue);
+
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.btn{
+    font-weight: bold;
+}
