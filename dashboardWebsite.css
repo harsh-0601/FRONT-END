@@ -10,3 +10,10 @@
 .nav-item:hover{
     font-size: large;
 }
+body, #Button-Section{
+    background: lightgray;
+}
+
+#dashboard:hover{
+    color:lightgray;
+}

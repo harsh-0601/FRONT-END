@@ -1,5 +1,5 @@
 .bg-primary , .btn-primary{
-    background: linear-gradient(45deg,black,cornflowerblue);
+    background: linear-gradient(45deg,black,rgb(18, 88, 218));
 }
 .bg-warning,.btn-warning{
     background: linear-gradient(45deg,black,orange);
