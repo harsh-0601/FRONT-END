@@ -1,6 +1,22 @@
-.bg-warning,.btn-warning{
-    background: linear-gradient(45deg,black, orange);
+.bg-primary , .btn-primary{
+    background: linear-gradient(45deg,black,cornflowerblue);
 }
+.bg-warning,.btn-warning{
+    background: linear-gradient(45deg,black,orange);
+}
+
+.bg-success , .btn-success{
+    background: linear-gradient(45deg,black,limegreen);
+}
+
+.bg-danger , .btn-danger{
+    background: linear-gradient(45deg, black,red);
+}
+
+.bg-secondary , .btn-secondary{
+    background: linear-gradient(45deg, black,purple);
+}
+
 .bg-info{
     background: linear-gradient(45deg,black, blue);
 
@@ -11,4 +27,23 @@
 
 .btn{
     font-weight: bold;
+    box-shadow: 0 0 5px black;
+}
+.bg-dark{
+    background: linear-gradient(45deg,black,darkslategrey);
+}
+.navbar{
+    background: linear-gradient(45deg,black,darkslategrey);
+}
+
+.bg-teal , btn-teal{
+    background-color: #2a6f6f !important;
+}
+
+.text-teal{
+    color: #2a6f6f !important;
+}
+
+.card{
+    box-shadow: 0 0 5px black;
 }
